@@ -5,7 +5,7 @@
 print_greeting() {
     echo "Hello, $1! Welcome to the advanced Bash script tutorial."
 }
-export global_variable=2000
+
 # Function to calculate the factorial of a number
 factorial() {
     local n=$1
@@ -16,7 +16,7 @@ factorial() {
         echo "$result is the result"
     done
     echo "The factorial of $n is $result."
-    echo $global_variable
+    
 }
 
 # Function to check if a number is prime
@@ -49,3 +49,4 @@ factorial "$number"
 # Check if the number is prime
 is_prime "$number"
 
+echo "new branch"
