@@ -28,7 +28,6 @@ is_prime() {
     fi
     for (( i=2; i*i<=num; i++ ))
     do
-        echo "---$i is your ivar"
         echo "---$num is your num"
         echo "---- $((num % i)) is you modulo"
         if (( num % i == 0 )); then
